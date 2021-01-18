@@ -1,0 +1,260 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: Montserrat;
+      }
+      header {
+        height: 90px;
+        /* margin-top: 0px; */
+        background-color: #d84f57;
+
+        align-items: center;
+      }
+      .header-wrapper {
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 84px;
+      }
+      .header-left {
+        display: flex;
+        line-height: 0;
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        align-items: center;
+        margin-left: 53px;
+        margin-top: 5px;
+      }
+      .header-right {
+        display: flex;
+        float: right;
+        align-items: center;
+        line-height: 0;
+        font-size: 22px;
+        letter-spacing: 0.2px;
+        margin-right: 100px;
+      }
+      .left-contents {
+        padding: 16px 11px;
+        margin: 0 5px;
+        color: #f7f4f4;
+        font-weight: bold;
+      }
+      .right-contents {
+        padding: 3px 4px;
+        margin: 0 5px;
+        color: #f7f4f4;
+        font-weight: bold;
+      }
+      .dropdown-arrow {
+        background-color: #d84f57;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      .main-img {
+        display: flex;
+        height: 450px;
+
+        background-size: cover;
+        width: 100%;
+        background-repeat: round;
+      }
+      sup {
+        top: -0.5em;
+        color: #ffffff;
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+      }
+      .search-section {
+        background-image: url(./NewYear2021.png);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        width: 100%;
+      }
+      .search-wrapper {
+        padding-top: 241px;
+        display: flex;
+        justify-content: center;
+      }
+      .search-content {
+        display: flex;
+        /* justify-content: center; */
+        font-size: 36px;
+      }
+      .from {
+        block-size: 51px;
+        position: relative;
+        /* width: 307px; */
+        font-size: 22px;
+        background-color: fff;
+        height: 48px;
+        border-right: 1px solid black;
+      }
+      #icon {
+        font-size: 28px;
+        padding-top: 10px;
+        padding-left: 27px;
+        color: #808080;
+      }
+      #toggle {
+        font-size: 24px;
+        position: absolute;
+        left: -18px;
+        top: 6px;
+        border: 1px solid #808080;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 4px;
+        color: #808080;
+      }
+      input {
+        outline: none;
+      }
+      .offers-wrapper {
+        height: 535px;
+        width: 100%;
+        display: flex;
+        background-color: aqua;
+      }
+      .safety-wrapper {
+        width: 100%;
+        height: 103px;
+        background-color: red;
+      }
+      .offers-wrapper {
+        width: 100%;
+        background-color: #d84f57;
+      }
+      .introducing-safety {
+        display: flex;
+        justify-content: center;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="header-left">
+          <img style="height: 77px" src="./red.png" />
+          <div class="left-contents">BUS TICKETS</div>
+          <div class="left-contents">rpool</div>
+          <sup style="font-weight: bold">New</sup>
+          <div class="left-contents">BUS HIRE</div>
+        </div>
+        <div class="header-right">
+          <div class="right-contents">Help</div>
+          <div class="dropdown">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              data-toggle="dropdown"
+              style="background-color: #d84f57; border: none; font-size: 22px"
+            >
+              Manage Booking <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#" style="font-size: 15px">Cancel</a></li>
+              <li><a href="#" style="font-size: 15px">Reschedule</a></li>
+              <li><a href="#" style="font-size: 15px">Show my Ticket</a></li>
+              <li><a href="#" style="font-size: 15px">Email/SMS</a></li>
+            </ul>
+          </div>
+
+          <i
+            class="fas fa-user-circle"
+            style="font-size: 48px; color: #ffffff"
+          ></i>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              data-toggle="dropdown"
+              style="background-color: #d84f57; border: none; font-size: 20px"
+            >
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#" style="font-size: 15px">Login/SignUp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="from-to-date"></div> -->
+    </header>
+    <div
+      class="search-section"
+      style="background-image: url('./NewYear2021.png')"
+    >
+      <div class="search-wrapper">
+        <div class="search-content">
+          <div class="from">
+            <span id="icon" class="fas">&#xf1ad; </span>
+            <input type="text" placeholder="FROM" style="border: black" />
+          </div>
+          <div class="from">
+            <div>
+              <i id="toggle" class="fas">&#xf362;</i>
+              <span id="icon" class="fas">&#xf1ad; </span>
+
+              <input type="text" placeholder="TO" style="border: black" />
+            </div>
+          </div>
+          <div class="from">
+            <div>
+              <span id="icon" class="far">&#xf073; </span>
+              <input type="text" placeholder="DATE" style="border: black" />
+            </div>
+          </div>
+          <div>
+            <button
+              style="
+                background-color: #d84f57;
+                color: #ffffff;
+                height: 50px;
+                width: 214px;
+                font-family: Montserrat;
+                font-size: 29px;
+              "
+            >
+              Search buses
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offers-wrapper">
+      <div class="safety-wrapper">
+        <div class="introducing-safety"></div>
+      </div>
+      <div class="offer-wrapper"></div>
+    </div>
+  </body>
+</html>
