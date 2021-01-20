@@ -521,3 +521,176 @@ input {
   width: 100%;
   opacity: 0.2;
 }
+.promise-wrapper {
+  height: 592px;
+  width: 100%;
+  margin-top: 133px;
+  display: flex;
+  flex-direction: column;
+}
+.we-promise {
+  background-color: #ededed;
+  height: 161px;
+  position: relative;
+}
+.list-of-promise {
+  height: 393px;
+  width: 85%;
+  border: 1px solid darkgray;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.promise-content {
+  margin-top: 123px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.1em;
+  color: #4a4a4a;
+}
+.list-of-promise-wrapper {
+  height: 431px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+}
+.promise-one {
+  width: 25%;
+  height: 391px;
+  border-right: 1px solid darkgray;
+  /* background-color: red; */
+}
+.promise-two {
+  width: 25%;
+  height: 391px;
+  /* background-color: red; */
+  border-right: 1px solid darkgray;
+}
+.promise-three {
+  width: 25%;
+  height: 391px;
+  border-right: 1px solid darkgray;
+  /* background-color: red; */
+}
+.promise-four {
+  width: 25%;
+  height: 391px;
+
+  /* background-color: red; */
+}
+.sub-one {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  min-height: 125px;
+  height: 89px;
+  padding-left: 82px;
+}
+.sub-two {
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+  margin-bottom: 27px;
+  margin: 0 auto;
+  width: 215px;
+  text-align: center;
+}
+.sub-three {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding-top: 49px;
+}
+.awards-wrapper {
+  /* background-color: red; */
+  height: 398px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.awards {
+  height: 412px;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.award-writing {
+  /* background-color: blue; */
+  height: 131px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 1.1em;
+  color: #4a4a4a;
+  padding-top: 47px;
+}
+.awards-picture {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+}
+.list-of-awards {
+  width: 31%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.list-of-awards-two {
+  width: 186px;
+  margin: 0 auto;
+  letter-spacing: 3px;
+  font-size: 16px;
+  /* margin-bottom: 11px; */
+  margin-top: 47px;
+  font-weight: 500;
+  /* line-height: 25px; */
+}
+.global-wrapper {
+  background-color: red;
+  height: 321px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.global {
+  flex-direction: column;
+  background-color: yellow;
+  height: 321px;
+  width: 66%;
+  display: flex;
+}
+.global-one {
+  background-color: beige;
+  height: 111px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.1em;
+  color: #4a4a4a;
+  padding: 31px;
+}
+.global-two {
+  background-color: black;
+  height: 210px;
+}
+/* .sub-global {
+}
+.colombia {
+}
+.india {
+}
+.indonesia {
+}
+.flag {
+}
+.flag-name {
+} */
