@@ -98,7 +98,7 @@ sup {
   position: relative;
   /* width: 307px; */
   font-size: 15px;
-  background-color: fff;
+  background-color: #fff;
   height: 49px;
   border-right: 1px solid black;
 }
@@ -753,4 +753,70 @@ input {
   margin: 0 auto;
   margin-top: 10px;
   color: #737373;
+}
+.footer-wrapper {
+  background-color: #1b2330;
+  width: 100%;
+  height: 373px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  height: 318px;
+  width: 83%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-one {
+  /* background-color: black; */
+  height: 277px;
+  width: 58%;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 19px;
+  margin-top: 35px;
+  /* margin-left: 162px; */
+  color: #797979;
+}
+.footer-two {
+  line-height: 27px;
+  margin-right: 38px;
+  margin-bottom: 1.5em;
+  padding-left: 151px;
+  width: 39%;
+}
+.foot-one {
+  height: 277px;
+  width: 21%;
+}
+/* .foot-two {
+}
+.footer-pic {
+} */
+.footer-content {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 27px;
+  color: #b1babf;
+}
+.footer-icons {
+  line-height: 27px;
+  color: white;
+}
+.foot-one-content {
+  display: block;
+  color: #d7d7d7;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 14px;
+}
+.footer-head {
+  font-weight: 700;
+  margin-bottom: 19px;
+  color: #797979;
 }
